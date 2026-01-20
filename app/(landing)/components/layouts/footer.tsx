@@ -17,7 +17,7 @@ const Footer = () => {
                         that moves as fast as you do.
                     </p>
                 </div>
-                <div className="w-105 grid grid-cols-2 " text-white>
+                <div className="w-105 grid grid-cols-2 text-white">
                     <div className="flex gap-7 flex-col">
                     <Link href="#">Home</Link>
                     <Link href="#">Categories</Link>
