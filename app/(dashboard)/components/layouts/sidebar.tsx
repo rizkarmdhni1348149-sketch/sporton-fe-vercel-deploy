@@ -54,8 +54,7 @@ const Sidebar = () => {
                         <Link
                             href={item.link}
                             key={index}
-                            className={`flex gap-3 items-center py-3 px-4.5 rounded-lg font-medium duration-300 
-                                ${isActive ? "bg-primary/15 text-primary" : "hover:bg-gray-100"
+                            className={`flex gap-3 items-center py-3 px-4.5 rounded-lg font-medium duration-300 ${isActive ? "bg-primary/15 text-primary" : "hover:bg-gray-100"
                                 }`}
                         >
                             <item.icon size={24} />
@@ -64,7 +63,10 @@ const Sidebar = () => {
                     );
                 })}
             </div>
-            <Link href="#" className="flex gap-3 font-medium py-3 px-4.5 mx-5 hover:bg-gray-100 duration-300 rounded-lg mt-auto mb-10">
+            <Link
+                href="#"
+                className="flex gap-3 font-medium py-3 px-4.5 mx-5 hover:bg-gray-100 duration-300 rounded-lg mt-auto mb-10"
+            >
                 <FiLogOut size={24} />
                 Log Out
             </Link>
